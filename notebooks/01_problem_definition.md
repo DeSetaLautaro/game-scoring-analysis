@@ -31,3 +31,22 @@ fair and engaging outcomes for players.
 - Implement a simulation of game rounds
 - Run Monte Carlo experiments
 - Compare different parameter settings
+
+  ## Experiment Plan
+
+We will compare scoring configurations defined by:
+- R: points for a correct vote
+- P: points penalty for an incorrect vote
+- S: points for impostor survival per round
+
+We will run Monte Carlo simulations across:
+- number of players (e.g., 4 to 10)
+- number of rounds (fixed or variable)
+- player skill profiles (low/medium/high accuracy)
+
+Primary outputs:
+- win rate by role
+- score distribution by role
+- ranking stability
+- incentive alignment (expected value of voting)
+
